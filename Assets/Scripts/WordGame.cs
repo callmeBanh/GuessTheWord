@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI; // Thư viện để làm việc với UI (Text, InputField)
-using TMPro;           // Nếu bạn dùng TextMeshPro (khuyên dùng)
+using TMPro;           
 
 public class WordGame : MonoBehaviour
 {
