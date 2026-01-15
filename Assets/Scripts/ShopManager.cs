@@ -15,7 +15,10 @@ public class ShopManager : MonoBehaviour
 
     public void UpdateUI()
     {
-        displayScoreText.text = "Điểm: " + GameDataManager.Instance.GetScore().ToString();
+        if (GameDataManager.Instance != null && displayScoreText != null)
+        {
+            displayScoreText.text = "Điểm: " + GameDataManager.Instance.GetScore().ToString();
+        }    
     }
 
     // Hàm này gắn vào các nút Đổi Quà
