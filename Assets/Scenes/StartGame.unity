@@ -931,6 +931,7 @@ GameObject:
   - component: {fileID: 278284435}
   - component: {fileID: 278284434}
   - component: {fileID: 278284433}
+  - component: {fileID: 278284436}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -949,8 +950,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 611275147}
+  m_Children: []
   m_Father: {fileID: 679529641}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1052,6 +1052,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278284431}
   m_CullTransparentMesh: 1
+--- !u!114 &278284436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278284431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272a3734bdc88174a95804cb93d14382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverEffect
+  scaleFactor: 1.1
+  speed: 5
 --- !u!1 &305912628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2174,6 +2188,7 @@ GameObject:
   - component: {fileID: 611275150}
   - component: {fileID: 611275149}
   - component: {fileID: 611275148}
+  - component: {fileID: 611275151}
   m_Layer: 5
   m_Name: PLay
   m_TagString: Untagged
@@ -2190,14 +2205,14 @@ RectTransform:
   m_GameObject: {fileID: 611275146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 278284432}
+  m_Father: {fileID: 679529641}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 86.49999}
+  m_AnchoredPosition: {x: 0, y: -0.000015258789}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611275148
@@ -2294,6 +2309,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611275146}
   m_CullTransparentMesh: 1
+--- !u!114 &611275151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611275146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272a3734bdc88174a95804cb93d14382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverEffect
+  scaleFactor: 1.1
+  speed: 5
 --- !u!1 &676870594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,6 +2490,7 @@ RectTransform:
   - {fileID: 278284432}
   - {fileID: 1467626338}
   - {fileID: 1677086892}
+  - {fileID: 611275147}
   m_Father: {fileID: 1857769173}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4847,6 +4877,7 @@ GameObject:
   - component: {fileID: 1467626341}
   - component: {fileID: 1467626340}
   - component: {fileID: 1467626339}
+  - component: {fileID: 1467626342}
   m_Layer: 5
   m_Name: Sound
   m_TagString: Untagged
@@ -4956,6 +4987,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467626337}
   m_CullTransparentMesh: 1
+--- !u!114 &1467626342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467626337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272a3734bdc88174a95804cb93d14382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverEffect
+  scaleFactor: 1.1
+  speed: 5
 --- !u!1 &1474656459
 GameObject:
   m_ObjectHideFlags: 0
@@ -5587,6 +5632,7 @@ GameObject:
   - component: {fileID: 1677086895}
   - component: {fileID: 1677086894}
   - component: {fileID: 1677086893}
+  - component: {fileID: 1677086896}
   m_Layer: 5
   m_Name: Gift
   m_TagString: Untagged
@@ -5708,6 +5754,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677086891}
   m_CullTransparentMesh: 1
+--- !u!114 &1677086896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677086891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f640cb8779f6c2a46919c5cee66b90ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GiftBoxAnimation
+  speed: 1
+  minScale: 0.9
+  maxScale: 1.1
 --- !u!1 &1686082807
 GameObject:
   m_ObjectHideFlags: 0
