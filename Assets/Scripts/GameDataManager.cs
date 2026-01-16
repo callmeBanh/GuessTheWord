@@ -16,7 +16,7 @@ public class GameDataManager : MonoBehaviour
         else Destroy(gameObject);
 
         // Load điểm từ máy khi bắt đầu game
-        currentScore = PlayerPrefs.GetInt(SCORE_KEY,500);
+        currentScore = PlayerPrefs.GetInt(SCORE_KEY,0);
     }
 
     // Hàm lấy điểm hiện tại
