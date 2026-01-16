@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
 
    // giao diện game
    public Image questionImage;
-    public TextMeshProUGUI levelText;
+    public TextMeshProUGUI scoreText;
     public Transform answerContainer; // Nơi chứa các ký tự trả lời
     public Transform sourceContainer;  // Nơi chứa các ký tự lựa chọn
 
@@ -26,6 +26,7 @@ public class GameController : MonoBehaviour
     private int currentLevelIndex = 0; // chỉ số level hiện tại
     private List <AnswerSlot> answerSlots = new List<AnswerSlot>();
     private List <LetterButton> letterButtons = new List<LetterButton>();
+    public GameDataManager gameDataManager;
 
     void Start()
     {
@@ -45,7 +46,7 @@ public class GameController : MonoBehaviour
 
         // Cập nhật giao diện
        questionImage.sprite = level.image;
-       levelText.text = "Bài: " + (index + 1).ToString();
+       scoreText.text = "Điểm: " + gameDataManager.GetScore().ToString();
        if(winnerPanel!= null)
        {
            winnerPanel.SetActive(false);
@@ -139,6 +140,8 @@ public class GameController : MonoBehaviour
             Debug.Log("CHIẾN THẮNG!");
             if(winnerPanel != null) winnerPanel.SetActive(true);
             // Sau 2 giây chuyển bài (bạn có thể viết thêm Invoke)
+
+            gameDataManager.AddScore(100); // Thưởng 100 điểm khi thắng
         }
     }
 
