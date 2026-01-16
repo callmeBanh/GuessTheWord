@@ -177,10 +177,38 @@ MonoBehaviour:
     image: {fileID: 7246617233870649240, guid: c4256fd32701e304ebda466b02096d24, type: 3}
   - answer: HANDBAG
     image: {fileID: -5409864384174617593, guid: 95d7140822947d84ebdaf03fd5889225, type: 3}
-  - answer: DRAGONFRUIT
-    image: {fileID: 6784993995589606191, guid: 026ccb82693d6a8468f896b67e3d3c0c, type: 3}
-  - answer: DRAGONFRUIT
-    image: {fileID: 6784993995589606191, guid: 026ccb82693d6a8468f896b67e3d3c0c, type: 3}
+  - answer: HONEYBEE
+    image: {fileID: 6484837254097859224, guid: 4d4e763cf2263ad4483aca275d98653d, type: 3}
+  - answer: HOTDOG
+    image: {fileID: 5843657036778545147, guid: f5b8f623bc341b04196d620810ae3c1c, type: 3}
+  - answer: KEYPAD
+    image: {fileID: -77871864799758282, guid: 00163b3a0eb279b47b8d365dd21d6e32, type: 3}
+  - answer: HONEYCOMB
+    image: {fileID: -9132302961887056600, guid: 9c31681b7cfb9944b8583c792660d1a0, type: 3}
+  - answer: HONEYCOMB
+    image: {fileID: -9132302961887056600, guid: 9c31681b7cfb9944b8583c792660d1a0, type: 3}
+  - answer: LAYDYBUG
+    image: {fileID: 5895497141872649918, guid: 17e960411ad0a7249998eea1adbd2677, type: 3}
+  - answer: LIGHTHOUSE
+    image: {fileID: 5512139056411362597, guid: 33d9d6a2b4fbaed44bc2d1f674d145e8, type: 3}
+  - answer: MAILBOX
+    image: {fileID: -4200121528519567819, guid: a0114c393c5ed984faeaf129903dcec1, type: 3}
+  - answer: MONCAKE
+    image: {fileID: 145259144485821495, guid: 0d683c5e487f37c4b8609970c2dd500d, type: 3}
+  - answer: RAINBOW
+    image: {fileID: 9192207241966816860, guid: 9657819f4ea82b144909f16a039d382a, type: 3}
+  - answer: SEAHOUSE
+    image: {fileID: 2727363536787704940, guid: 3ec7f74450cb2764eb2cd3177234097d, type: 3}
+  - answer: PANCAKE
+    image: {fileID: 5871849610016742436, guid: b498ac2802bc6864793fd14b325f605a, type: 3}
+  - answer: RAINCOAT
+    image: {fileID: -5721734101308783632, guid: 1d391f1794b774a41821ce8258c0517f, type: 3}
+  - answer: STARTFISH
+    image: {fileID: -6987148479580219570, guid: 39f136ead1444994c837ef3f44c37832, type: 3}
+  - answer: SUNFLOWER
+    image: {fileID: -256329436847572505, guid: c2ad796ca7b5b4d49a693d07cb7d69dc, type: 3}
+  - answer: SUNGLASSES
+    image: {fileID: -3460598817795432408, guid: aeb18ca9b41170543b3ad8d709f0aa9d, type: 3}
   randomChars: ABCDEFGHIJKLMNOPQRSTUVWXYZ
   questionImage: {fileID: 852555652}
   scoreText: {fileID: 1365437754}
