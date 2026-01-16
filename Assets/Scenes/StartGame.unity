@@ -1583,6 +1583,7 @@ GameObject:
   - component: {fileID: 278284435}
   - component: {fileID: 278284434}
   - component: {fileID: 278284433}
+  - component: {fileID: 278284436}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -1601,8 +1602,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 611275147}
+  m_Children: []
   m_Father: {fileID: 679529641}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1704,6 +1704,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278284431}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+--- !u!114 &278284436
+=======
 --- !u!1 &295932844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,11 +1748,22 @@ RectTransform:
   m_SizeDelta: {x: 1291.29, y: 213.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295932846
+>>>>>>> c1b4ac6fbd46538691340047b8b6912caedd485e
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 278284431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272a3734bdc88174a95804cb93d14382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverEffect
+  scaleFactor: 1.1
+  speed: 5
+=======
   m_GameObject: {fileID: 295932844}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1782,6 +1796,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295932844}
   m_CullTransparentMesh: 1
+>>>>>>> c1b4ac6fbd46538691340047b8b6912caedd485e
 --- !u!1 &305912628
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,6 +3624,7 @@ GameObject:
   - component: {fileID: 611275150}
   - component: {fileID: 611275149}
   - component: {fileID: 611275148}
+  - component: {fileID: 611275151}
   m_Layer: 5
   m_Name: PLay
   m_TagString: Untagged
@@ -3625,14 +3641,14 @@ RectTransform:
   m_GameObject: {fileID: 611275146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 278284432}
+  m_Father: {fileID: 679529641}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 86.49999}
+  m_AnchoredPosition: {x: 0, y: -0.000015258789}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611275148
@@ -3729,6 +3745,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611275146}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+--- !u!114 &611275151
+=======
 --- !u!1 &615235301
 GameObject:
   m_ObjectHideFlags: 0
@@ -3767,11 +3786,22 @@ RectTransform:
   m_SizeDelta: {x: 305.83, y: 120.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &615235303
+>>>>>>> c1b4ac6fbd46538691340047b8b6912caedd485e
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 611275146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272a3734bdc88174a95804cb93d14382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverEffect
+  scaleFactor: 1.1
+  speed: 5
+=======
   m_GameObject: {fileID: 615235301}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4431,6 +4461,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674426263}
   m_CullTransparentMesh: 1
+>>>>>>> c1b4ac6fbd46538691340047b8b6912caedd485e
 --- !u!1 &676870594
 GameObject:
   m_ObjectHideFlags: 0
@@ -4598,6 +4629,7 @@ RectTransform:
   - {fileID: 278284432}
   - {fileID: 1467626338}
   - {fileID: 1677086892}
+  - {fileID: 611275147}
   m_Father: {fileID: 1857769173}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -7678,6 +7710,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1468774981}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 272a3734bdc88174a95804cb93d14382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverEffect
+  scaleFactor: 1.1
+  speed: 5
+=======
+  m_Script: {fileID: 11500000, guid: 1b118f5f214bab84692e3f232544e9bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SoundButton
+  soundOnIcon: {fileID: 6871693977780528425, guid: c0ef7ef80d6c5c7469a689cab2caff40, type: 3}
+  soundOffIcon: {fileID: -8562664541326383259, guid: cc5db3556b3117c45be270cd9d6e7480, type: 3}
+>>>>>>> main
+=======
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
@@ -7769,6 +7816,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468774981}
   m_CullTransparentMesh: 1
+>>>>>>> c1b4ac6fbd46538691340047b8b6912caedd485e
 --- !u!1 &1474656459
 GameObject:
   m_ObjectHideFlags: 0
@@ -8633,6 +8681,7 @@ GameObject:
   - component: {fileID: 1677086895}
   - component: {fileID: 1677086894}
   - component: {fileID: 1677086893}
+  - component: {fileID: 1677086896}
   m_Layer: 5
   m_Name: Gift
   m_TagString: Untagged
@@ -8754,7 +8803,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677086891}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+--- !u!114 &1677086896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677086891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f640cb8779f6c2a46919c5cee66b90ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GiftBoxAnimation
+  speed: 1
+  minScale: 0.9
+  maxScale: 1.1
+--- !u!1 &1686082807
+=======
 --- !u!1 &1680586031
+>>>>>>> c1b4ac6fbd46538691340047b8b6912caedd485e
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
