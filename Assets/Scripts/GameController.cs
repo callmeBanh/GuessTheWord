@@ -28,7 +28,8 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        LoadLevel(currentLevelIndex);
+       currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 0);
+         LoadLevel(currentLevelIndex);
     }
 
     public void LoadLevel(int index)
