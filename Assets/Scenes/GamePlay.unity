@@ -584,19 +584,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 476703877}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: 272a3734bdc88174a95804cb93d14382, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverEffect
-  scaleFactor: 1.1
-  speed: 5
-=======
   m_Script: {fileID: 11500000, guid: 1b118f5f214bab84692e3f232544e9bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundButton
-  soundOnIcon: {fileID: 6871693977780528425, guid: c0ef7ef80d6c5c7469a689cab2caff40, type: 3}
-  soundOffIcon: {fileID: -8562664541326383259, guid: cc5db3556b3117c45be270cd9d6e7480, type: 3}
->>>>>>> main
+  soundOnIcon: {fileID: -1589811512066798496, guid: 54c07791c774885408389979ef87c5c1, type: 3}
+  soundOffIcon: {fileID: -1858104909349026857, guid: 424b8239b6f1fe641b33d4a0bd9d0b13, type: 3}
 --- !u!1 &648863542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,3 +1844,4 @@ SceneRoots:
   - {fileID: 1408070496}
   - {fileID: 39030689}
   - {fileID: 2040672440}
+  - {fileID: 947291678}

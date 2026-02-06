@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; // Dùng cho Image thường
 using TMPro;
-using System.Data.Common;
+using UnityEngine.SceneManagement;
 using System;          // Dùng cho Text
 
 public class GameController : MonoBehaviour
@@ -16,8 +16,6 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public Transform answerContainer; // Nơi chứa các ký tự trả lời
     public Transform sourceContainer;  // Nơi chứa các ký tự lựa chọn
-
-    public GameObject winnerPanel;
 
     // prefabs
     public GameObject answerCharPrefab; // ô trả lời
@@ -47,10 +45,7 @@ public class GameController : MonoBehaviour
         // Cập nhật giao diện
        questionImage.sprite = level.image;
        scoreText.text = "Điểm: " + gameDataManager.GetScore().ToString();
-       if(winnerPanel!= null)
-       {
-           winnerPanel.SetActive(false);
-       }
+     
 
 
        // Xóa các ký tự cũ
@@ -138,9 +133,7 @@ public class GameController : MonoBehaviour
         if (currentAnswer == levels[currentLevelIndex].answer.ToUpper())
         {
             Debug.Log("CHIẾN THẮNG!");
-            if(winnerPanel != null) winnerPanel.SetActive(true);
-            // Sau 2 giây chuyển bài (bạn có thể viết thêm Invoke)
-
+            SceneManager.LoadScene("Victory");
             gameDataManager.AddScore(100); // Thưởng 100 điểm khi thắng
         }
     }
